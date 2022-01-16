@@ -1,0 +1,25 @@
+.container {
+        min-height: 80vh;
+        background-color: rgba(27, 13, 102, 0.808);
+        color: wheat;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.description {
+        font-size: 150%;
+        margin: 2em 2em auto 2em;    
+}
+
+.description a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.description a:hover {
+    color: coral;
+}

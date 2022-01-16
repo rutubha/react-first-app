@@ -1,0 +1,98 @@
+.container {
+    background-color: rgba(27, 13, 102, 0.808);
+    min-height: 90vh;
+}
+
+.title-name {
+    display: block;
+    font-size: 220%;
+    color: wheat;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: wheat;
+    font-size: 120%;
+}
+
+.about-me {
+    max-width: 49vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-title {
+    padding: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: coral;
+    font-size: 150%;
+    border-bottom: 1px solid yellow;
+}
+
+.contact {
+    max-width: 49vw;
+    padding: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.Education {
+    max-width: 30vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.skills {
+    max-width: 30vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.Language {
+    max-width: 30vw;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 870px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .intro {
+        display: block;
+        align-items: center;
+    }
+
+    .about-me {
+        max-width: 90vw;
+    }
+
+    .contact {
+        max-width: 90vw;
+    }
+
+    .Education {
+        max-width: 90vw;
+    }
+
+    .skills {
+        max-width: 90vw;
+    }
+
+    .Language {
+    max-width: 90vw;
+    }
+}

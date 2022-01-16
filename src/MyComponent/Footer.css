@@ -1,0 +1,11 @@
+.footer-tag {
+    min-height: 5em;
+    background-color: rgb(31, 46, 77);
+    color: wheat;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.copyright {
+    padding-top: 2.3em;
+}
