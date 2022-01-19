@@ -11,7 +11,7 @@ export const About = () => {
                 In this app I am simply add some Menu.<br />
                 And nevigate between them i am use react-router-dom to nevigate without refreshing whole site.<br />
                 That's all....<br /><br />
-                Thank You
+                Thank You.
             </section>
         </div>
     )
